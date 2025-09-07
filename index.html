@@ -20,7 +20,7 @@
         /* Custom styles for the page */
         body {
             font-family: 'Inter', sans-serif;
-            //background-color: #111827; /* Dark gray-blue background */
+            /* background-color: #111827; */ /* Dark gray-blue background */
             background-color: #1a0f2b; /* Deep purple fallback */
             background-image: url('images/crystal-background.png');
             background-size: cover;
@@ -73,6 +73,8 @@
             <nav class="hidden md:flex gap-6 text-lg">
                  <a href="#about" class="hover:text-purple-300 transition-colors">About</a>
                  <a href="#featured" class="hover:text-purple-300 transition-colors">Crystals</a>
+                 <a href="#videos" class="hover:text-purple-300 transition-colors">Videos</a>
+                 <a href="#socials" class="hover:text-purple-300 transition-colors">Socials</a>
                  <a href="#faq" class="hover:text-purple-300 transition-colors">FAQ</a>
             </nav>
         </div>
@@ -92,12 +94,15 @@
                 <p class="text-lg md:text-xl text-purple-200 mb-8">
                     Your trusted online source of authentic healing crystals and gemstones in the Philippines. Start your journey with our affordable collection.
                 </p>
-                <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-                    <a href="https://shopee.ph/cheffyyyy" target="_blank" class="w-full sm:w-auto bg-purple-600 text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-purple-500/20">
-                        🛒 Shop Crystals Now
+                <div class="flex flex-wrap justify-center items-center gap-4">
+                    <a href="https://shopee.ph/cheffyyyy" target="_blank" class="w-full sm:w-auto bg-purple-600 text-white font-bold py-3 px-6 rounded-full text-lg hover:bg-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-purple-500/20">
+                        Buy from Shopee
                     </a>
-                    <a href="#socials" class="w-full sm:w-auto bg-gray-700/50 text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-600/50 transition-all duration-300 transform hover:scale-105 border border-purple-400/50">
-                        📲 Follow Us
+                    <a href="https://www.tiktok.com/shop/ph/pdp/1730774820001645671" target="_blank" class="w-full sm:w-auto bg-purple-600 text-white font-bold py-3 px-6 rounded-full text-lg hover:bg-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-purple-500/20">
+                        Buy from TikTok Shop
+                    </a>
+                    <a href="#socials" class="w-full sm:w-auto bg-gray-700/50 text-white font-bold py-3 px-6 rounded-full text-lg hover:bg-gray-600/50 transition-all duration-300 transform hover:scale-105 border border-purple-400/50">
+                        Follow Us
                     </a>
                 </div>
             </div>
@@ -109,15 +114,22 @@
             <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
                 <div class="md:w-1/2 text-lg leading-relaxed text-gray-300 space-y-4 text-center md:text-left">
                     <p>
-                       At Cheffy’s Crystals, we believe that the positive energy of authentic gemstones should be accessible to everyone in the Philippines.
+                        At Cheffy’s Crystals, we believe that the positive energy of authentic gemstones should be accessible to everyone in the Philippines.
                     </p>
                     <p>
-                       That’s why we offer high-quality, authentic healing crystals at prices that won’t break the bank — starting as low as <strong class="font-bold text-purple-300">₱20</strong>.
-                       Each gemstone is carefully chosen to help you manifest abundance, attract positivity, and protect your energy.
+                        That’s why we offer high-quality, authentic healing crystals at prices that won’t break the bank — starting as low as <strong class="font-bold text-purple-300">₱20</strong>.
+                        Each gemstone is carefully chosen to help you manifest abundance, attract positivity, and protect your energy.
                     </p>
                     <p>
-                       Whether you’re a beginner looking for your first crystal or an experienced collector, we are here to support your spiritual journey with affordable and meaningful gemstones, shipped nationwide in the Philippines.
+                        Whether you’re a beginner looking for your first crystal or an experienced collector, we are here to support your spiritual journey with affordable and meaningful gemstones, shipped nationwide in the Philippines.
                     </p>
+
+                    <!-- Our Mission Section -->
+                    <div class="mt-8 pt-6 border-t border-purple-400/20">
+                        <h3 class="text-2xl font-bold text-white mb-3">Our Mission</h3>
+                        <p>To make the healing energy of authentic crystals accessible and affordable for every Filipino, helping them on their journey toward positivity, abundance, and self-discovery.</p>
+                    </div>
+
                      <p class="text-xl font-semibold text-white mt-6">
                         ✨ Good vibes, good energy — always within reach. ✨
                     </p>
@@ -182,7 +194,7 @@
                 </div>
             </div>
         </section>
-		
+        
         <!-- TikTok Videos Section -->
         <section id="videos" class="mb-16 p-8 md:p-12 rounded-3xl glass-card">
             <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Crystal Insights from Our TikTok</h2>
@@ -210,27 +222,57 @@
 
         <!-- Links Section -->
         <section id="socials" class="mb-16 p-8 md:p-12 rounded-3xl glass-card">
-            <h2 class="text-4xl font-bold text-center mb-8 gradient-text">Find Us Online</h2>
-            <div class="grid md:grid-cols-2 gap-12 items-start">
-                <!-- Shop Links -->
-                <div class="text-center">
-                    <h3 class="text-2xl font-semibold mb-6 text-white">Shop With Us</h3>
-                    <div class="flex flex-col gap-4">
-                        <a href="https://shopee.ph/cheffyyyy" target="_blank" class="bg-purple-600/80 text-white py-3 rounded-xl hover:bg-purple-600 transition-colors duration-300">Shopee</a>
-                        <a href="https://www.tiktok.com/shop/ph/pdp/1730774820001645671" target="_blank" class="bg-purple-600/80 text-white py-3 rounded-xl hover:bg-purple-600 transition-colors duration-300">TikTok Shop</a>
-                        <a href="https://www.lazada.com.ph/shop/cheffy-s-crystals" target="_blank" class="bg-purple-600/80 text-white py-3 rounded-xl hover:bg-purple-600 transition-colors duration-300">Lazada</a>
-                    </div>
-                </div>
-                <!-- Social Media Links -->
-                <div class="text-center">
-                    <h3 class="text-2xl font-semibold mb-6 text-white">Follow Us</h3>
-                    <div class="flex flex-col gap-4">
-                        <a href="https://facebook.com/cheffyscrystals" target="_blank" class="bg-gray-700/80 text-white py-3 rounded-xl hover:bg-gray-700 transition-colors duration-300">Facebook</a>
-                        <a href="https://instagram.com/cheffyscrystals" target="_blank" class="bg-gray-700/80 text-white py-3 rounded-xl hover:bg-gray-700 transition-colors duration-300">Instagram</a>
-                        <a href="https://www.tiktok.com/@cheffyscrystals" target="_blank" class="bg-gray-700/80 text-white py-3 rounded-xl hover:bg-gray-700 transition-colors duration-300">TikTok</a>
-                        <a href="https://www.youtube.com/channel/UC5OJ53lDex9KgjTN3JgG0kg" target="_blank" class="bg-gray-700/80 text-white py-3 rounded-xl hover:bg-gray-700 transition-colors duration-300">Youtube</a>
-                    </div>
-                </div>
+            <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Find Us Online</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 md:gap-6 text-center">
+
+                <!-- Shopee -->
+                <a href="https://shopee.ph/cheffyyyy" target="_blank" class="glass-card p-4 rounded-2xl flex flex-col items-center justify-center gap-3 hover:bg-purple-900/40 transition-all duration-300 transform hover:-translate-y-1">
+                    <svg class="w-10 h-10 text-purple-300" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.29 6.095a.499.499 0 00-.491-.42h-3.32a.5.5 0 00-.498.527c.056.54-.154 1.079-.58 1.458-.45.399-.98.599-1.59.599h-3.41c-.61 0-1.14-.2-1.59-.599-.426-.379-.636-.918-.58-1.458a.5.5 0 00-.499-.527h-3.32a.499.499 0 00-.49.42L3 13.525v.11c0 1.93 1.57 3.5 3.5 3.5h11c1.93 0 3.5-1.57 3.5-3.5v-.11l-.71-7.43zM12 1.5c-2.12 0-3.94.9-5.3 2.5h10.6c-1.36-1.6-3.18-2.5-5.3-2.5z"></path></svg>
+                    <span class="font-semibold">Shopee</span>
+                </a>
+
+                <!-- TikTok Shop -->
+                 <a href="https://www.tiktok.com/shop/ph/pdp/1730774820001645671" target="_blank" class="glass-card p-4 rounded-2xl flex flex-col items-center justify-center gap-3 hover:bg-purple-900/40 transition-all duration-300 transform hover:-translate-y-1">
+                   <svg class="w-10 h-10 text-purple-300" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"></path></svg>
+                    <span class="font-semibold">TikTok Shop</span>
+                </a>
+
+                <!-- Lazada -->
+                <a href="https://www.lazada.com.ph/shop/cheffy-s-crystals" target="_blank" class="glass-card p-4 rounded-2xl flex flex-col items-center justify-center gap-3 hover:bg-purple-900/40 transition-all duration-300 transform hover:-translate-y-1">
+                    <svg class="w-10 h-10 text-purple-300" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21.4 6.6s-1-4.2-4-4.5c-1.3-.1-3.2.6-3.2.6s-2.5-1.4-5.3-1.3C4.6 1.7 3.6 5.8 3.6 5.8s-1.8 1.2-1.8 5.7c0 3.2 2.1 5.4 2.1 5.4s-.4 2.2.9 3.2c1 .7 3.3.3 3.3.3s.7 1.4 3.7 1.4h.1c3 0 3.7-1.4 3.7-1.4s2.3.4 3.3-.3c1.3-1 1-3.2 1-3.2s2-2.2 2-5.4c0-4.4-1.5-5.6-1.5-5.6z"></path></svg>
+                    <span class="font-semibold">Lazada</span>
+                </a>
+
+                <!-- Facebook -->
+                 <a href="https://facebook.com/cheffyscrystals" target="_blank" class="glass-card p-4 rounded-2xl flex flex-col items-center justify-center gap-3 hover:bg-purple-900/40 transition-all duration-300 transform hover:-translate-y-1">
+                    <svg class="w-10 h-10 text-purple-300" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"></path></svg>
+                    <span class="font-semibold">Facebook</span>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://instagram.com/cheffyscrystals" target="_blank" class="glass-card p-4 rounded-2xl flex flex-col items-center justify-center gap-3 hover:bg-purple-900/40 transition-all duration-300 transform hover:-translate-y-1">
+                    <svg class="w-10 h-10 text-purple-300" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266-.058 1.644-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zM12 16c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44s-1.44-.645-1.44-1.44.646-1.44 1.44-1.44 1.44.645 1.44 1.44z"></path></svg>
+                    <span class="font-semibold">Instagram</span>
+                </a>
+
+                <!-- TikTok -->
+                <a href="https://www.tiktok.com/@cheffyscrystals" target="_blank" class="glass-card p-4 rounded-2xl flex flex-col items-center justify-center gap-3 hover:bg-purple-900/40 transition-all duration-300 transform hover:-translate-y-1">
+                    <svg class="w-10 h-10 text-purple-300" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"></path></svg>
+                    <span class="font-semibold">TikTok</span>
+                </a>
+
+                <!-- Youtube -->
+                <a href="https://www.youtube.com/channel/UC5OJ53lDex9KgjTN3JgG0kg" target="_blank" class="glass-card p-4 rounded-2xl flex flex-col items-center justify-center gap-3 hover:bg-purple-900/40 transition-all duration-300 transform hover:-translate-y-1">
+                    <svg class="w-10 h-10 text-purple-300" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+                    <span class="font-semibold">Youtube</span>
+                </a>
+                
+                <!-- Email Us -->
+                <a href="mailto:storetgf@gmail.com" class="glass-card p-4 rounded-2xl flex flex-col items-center justify-center gap-3 hover:bg-purple-900/40 transition-all duration-300 transform hover:-translate-y-1">
+                    <svg class="w-10 h-10 text-purple-300" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"></path></svg>
+                    <span class="font-semibold">Email Us</span>
+                </a>
+
             </div>
         </section>
 
