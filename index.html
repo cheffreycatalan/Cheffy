@@ -20,7 +20,12 @@
         /* Custom styles for the page */
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #111827; /* Dark gray-blue background */
+            //background-color: #111827; /* Dark gray-blue background */
+            background-color: #1a0f2b; /* Deep purple fallback */
+            background-image: url('images/crystal-background.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
         }
         
         /* Applying the Poppins font to headings */
@@ -62,7 +67,7 @@
     <header class="p-4 md:p-6 sticky top-0 z-10 glass-card">
         <div class="container mx-auto flex justify-between items-center">
              <div class="flex items-center gap-3">
-                <img src="images/logo.jpg" alt="Cheffy's Crystals Logo" class="h-12 w-12 rounded-full">
+                <img src="images/logo.png" alt="Cheffy's Crystals Logo" class="h-12 w-12 rounded-full">
                 <h1 class="text-2xl font-bold tracking-wider gradient-text">Cheffy's Crystals</h1>
             </div>
             <nav class="hidden md:flex gap-6 text-lg">
@@ -285,8 +290,10 @@
 
     <!-- Footer -->
     <footer class="text-center p-8 mt-16 border-t border-gray-700">
-        <p class="text-gray-400">&copy; Created by Cheff through the power of AI. 2025 Cheffy's Crystals. All Rights Reserved.</p>
+        <p class="text-gray-400">&copy; Created by Cheff through the power of AI. Cheffy's Crystals 2025. All Rights Reserved.</p>
     </footer>
+
+    <script async src="https://www.tiktok.com/embed.js"></script>
 
 </body>
 </html>
